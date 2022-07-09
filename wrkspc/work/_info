@@ -1,0 +1,162 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Yehor/FPGA_Development/Intel/envelope_approximation/wrkspc
+vclock_gen
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1657392523
+!i10b 1
+!s100 CjAA12PP[0Y[8h9^cB0>V2
+I1kc9SZ;NfBz002[[QWNbP3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 clock_gen_sv_unit
+S1
+R0
+w1648760768
+8../models/verification/sv/clock_gen.sv
+F../models/verification/sv/clock_gen.sv
+L0 3
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1657392523.000000
+Z6 !s107 ../models/verification/sv/top.sv|../models/verification/sv/test_package.sv|../models/verification/sv/sine_cos_gen.sv|../models/verification/sv/clock_gen.sv|
+Z7 !s90 -reportprogress|300|../models/verification/sv/clock_gen.sv|../models/verification/sv/sine_cos_gen.sv|../models/verification/sv/test_package.sv|../models/verification/sv/top.sv|
+!i113 1
+Z8 tCvgOpt 0
+venvelope_approximation
+R2
+!i10b 1
+!s100 BjKMbFckOZe7z?oWEFl9c0
+I:UPCX;zUTMP0i8EJFDCF@2
+R3
+R0
+w1657234097
+8../models/design/envelope_approximation.v
+F../models/design/envelope_approximation.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+Z9 !s107 ../models/design/magnitude_approx.v|../models/design/exp_integrator.v|../models/design/envelope_approximation.v|
+Z10 !s90 -reportprogress|300|../models/design/envelope_approximation.v|../models/design/exp_integrator.v|../models/design/magnitude_approx.v|
+!i113 1
+R8
+vexp_integrator
+R2
+!i10b 1
+!s100 k4^cb8O4U>^K?P>:3@zPI1
+IX1^1L1;JFb<a76OWbc0N20
+R3
+R0
+w1657392515
+8../models/design/exp_integrator.v
+F../models/design/exp_integrator.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R9
+R10
+!i113 1
+R8
+vmagnitude_approx
+R2
+!i10b 1
+!s100 f``QSiUKIO_c5;MgWkIKK1
+I]<R=2?aPZNcmfNA^E;zWD2
+R3
+R0
+w1657238304
+8../models/design/magnitude_approx.v
+F../models/design/magnitude_approx.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R9
+R10
+!i113 1
+R8
+vsine_cos_gen
+R1
+DXx4 work 12 test_package 0 22 [>1o5P0f03DE<4ef?@:6F0
+R2
+!i10b 1
+!s100 ?Gbf[eZ>_?^Y]eb;HbOYL3
+IfOKHV6TSJlh3kz@0e8B>N2
+R3
+!s105 sine_cos_gen_sv_unit
+S1
+R0
+w1648577425
+8../models/verification/sv/sine_cos_gen.sv
+F../models/verification/sv/sine_cos_gen.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+Xtest_package
+R1
+R2
+!i10b 1
+!s100 UOb?F<7DU1@jBeJXG_l0=2
+I[>1o5P0f03DE<4ef?@:6F0
+V[>1o5P0f03DE<4ef?@:6F0
+S1
+R0
+w1648571526
+8../models/verification/sv/test_package.sv
+F../models/verification/sv/test_package.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vtop
+R1
+R2
+!i10b 1
+!s100 fM7<8izJ7lhRZWELY^?M;0
+IMY[dP?5<5d@hm7X77N8F_2
+R3
+!s105 top_sv_unit
+S1
+R0
+w1657392194
+8../models/verification/sv/top.sv
+F../models/verification/sv/top.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
