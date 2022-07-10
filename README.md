@@ -12,10 +12,10 @@ These are represented in a picture below:
 
 Magnitude approximation module detects an envelope of a complex IQ signal using a simple formula that approximates a true envelope calculation expression to reduce resource usage and get rid of squaring and square root extraction procedures. It uses a simple expression:
 
-$${r ≈ \alpha*max({|x|}, {|y|}) + \beta*min({|x|}, {|y|}) }$$
+$${r ≈ \alpha * max({|x|}, {|y|}) + \beta * min({|x|}, {|y|}) }$$
 
 where $\alpha$ and $\beta$ represent some coefficient and are chosen as $1$ and  $\frac{3}{8}$ resprectively.\
 A lowpass filter is a simple exponential integrator, which difference equation is described as
 $${y(n) = \alpha * x[n] + (1 - \alpha) * y(n - 1)}$$
-For this project ${\alpha}$ is $\frac{3}{4}$.
+For this project ${\alpha}$ is $\frac{3}{4}$
 
